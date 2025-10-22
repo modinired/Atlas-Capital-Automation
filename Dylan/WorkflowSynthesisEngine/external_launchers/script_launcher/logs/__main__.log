@@ -1,0 +1,18 @@
+2025-10-21 01:10:12 - __main__ - [32mINFO[0m - main:117 - ============================================================
+2025-10-21 01:10:12 - __main__ - [32mINFO[0m - main:118 - Starting core functionality tests
+2025-10-21 01:10:12 - __main__ - [32mINFO[0m - main:119 - ============================================================
+2025-10-21 01:10:12 - __main__ - [32mINFO[0m - test_registry:21 - Testing script registry...
+2025-10-21 01:10:12 - __main__ - [32mINFO[0m - test_registry:45 - Registered test script with ID: cdd9c43c3b0c
+2025-10-21 01:10:12 - __main__ - [32mINFO[0m - test_registry:52 - ✓ Registry test passed
+2025-10-21 01:10:12 - __main__ - [32mINFO[0m - test_parameter_manager:59 - Testing parameter manager...
+2025-10-21 01:10:12 - __main__ - [32mINFO[0m - test_parameter_manager:89 - ✓ Parameter manager test passed
+2025-10-21 01:10:12 - __main__ - [32mINFO[0m - test_launcher_engine:94 - Testing launcher engine...
+2025-10-21 01:10:12 - __main__ - [32mINFO[0m - test_launcher_engine:102 - Quick launching: /home/ubuntu/script_launcher/scripts/hello_world.py
+2025-10-21 01:10:15 - __main__ - [32mINFO[0m - test_launcher_engine:106 - Exit code: 0
+2025-10-21 01:10:15 - __main__ - [32mINFO[0m - test_launcher_engine:107 - Status: completed
+2025-10-21 01:10:15 - __main__ - [32mINFO[0m - test_launcher_engine:110 - Output: Hello, World!
+This is a simple test script for the Script Launcher.
+2025-10-21 01:10:15 - __main__ - [32mINFO[0m - test_launcher_engine:112 - ✓ Launcher engine test passed
+2025-10-21 01:10:15 - __main__ - [32mINFO[0m - main:126 - ============================================================
+2025-10-21 01:10:15 - __main__ - [32mINFO[0m - main:127 - ✓ All tests passed!
+2025-10-21 01:10:15 - __main__ - [32mINFO[0m - main:128 - ============================================================

@@ -1,0 +1,3 @@
+2025-10-21 01:10:12 - core.launcher_engine - [32mINFO[0m - __init__:44 - Launcher engine initialized
+2025-10-21 01:10:12 - core.launcher_engine - [32mINFO[0m - quick_launch:247 - Quick launching script: /home/ubuntu/script_launcher/scripts/hello_world.py
+2025-10-21 01:10:21 - core.launcher_engine - [32mINFO[0m - __init__:44 - Launcher engine initialized

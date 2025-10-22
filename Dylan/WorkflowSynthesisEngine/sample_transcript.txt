@@ -1,0 +1,5 @@
+Interviewer: Walk me through onboarding a new contractor.
+SME: First, HR sends the welcome email.
+SME: Next, the hiring manager schedules orientation.
+SME: After orientation, IT provisions accounts depending on role.
+SME: If the contractor needs elevated access, security signs off before IT finishes.

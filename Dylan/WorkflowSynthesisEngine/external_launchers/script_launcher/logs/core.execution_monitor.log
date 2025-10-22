@@ -1,0 +1,2 @@
+2025-10-21 01:10:12 - core.execution_monitor - [32mINFO[0m - execute:224 - Executing script: /home/ubuntu/script_launcher/scripts/hello_world.py
+2025-10-21 01:10:15 - core.execution_monitor - [32mINFO[0m - execute:295 - Script execution completed: /home/ubuntu/script_launcher/scripts/hello_world.py (status=completed, exit_code=0, duration=2.51s)

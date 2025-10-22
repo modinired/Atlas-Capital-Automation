@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  # Updated service name and namespace
+  name: terry-delmonaco-ai
+  namespace: terry-delmonaco-ai
+spec:
+  type: ClusterIP
+  selector:
+    app: terry-delmonaco-ai
+  ports:
+  - name: http
+    port: 80
+    targetPort: 8000

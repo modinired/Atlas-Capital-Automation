@@ -1,0 +1,20 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  # Updated ingress name and namespace for the new project
+  name: terry-delmonaco-ai
+  namespace: terry-delmonaco-ai
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+spec:
+  rules:
+  - host: terry-delmonaco-ai.local
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: terry-delmonaco-ai
+            port:
+              number: 80

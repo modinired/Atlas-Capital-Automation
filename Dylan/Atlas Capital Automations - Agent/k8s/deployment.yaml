@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  # Updated deployment name and namespace for the new combined project
+  name: terry-delmonaco-ai
+  namespace: terry-delmonaco-ai
+  labels:
+    app: terry-delmonaco-ai
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: terry-delmonaco-ai
+  template:
+    metadata:
+      labels:
+        app: terry-delmonaco-ai
+    spec:
+      containers:
+      - name: api
+        # Updated image to new project image name and tag
+        image: terry-delmonaco-presents-ai:1.0.0
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8000
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 10
+          periodSeconds: 20
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
+          limits:
+            cpu: "500m"
+            memory: "512Mi"
+        env:
+        - name: ENV
+          value: "prod"
+        - name: LOG_LEVEL
+          value: "INFO"

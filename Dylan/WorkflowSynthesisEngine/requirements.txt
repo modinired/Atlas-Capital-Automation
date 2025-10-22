@@ -1,0 +1,22 @@
+# Core Dependencies
+sqlalchemy
+psycopg2-binary
+alembic
+
+# Vector support for PostgreSQL
+pgvector
+
+# Pydantic for data validation
+pydantic
+
+# Async support
+greenlet
+
+# Web framework
+fastapi
+uvicorn[standard]
+
+# Other utilities
+python-dotenv
+PyYAML
+rapidfuzz

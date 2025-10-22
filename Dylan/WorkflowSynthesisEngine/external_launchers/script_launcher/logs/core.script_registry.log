@@ -1,0 +1,5 @@
+2025-10-21 01:10:12 - core.script_registry - [32mINFO[0m - __init__:113 - Script registry initialized with 0 scripts
+2025-10-21 01:10:12 - core.script_registry - [32mINFO[0m - register_script:165 - Registering new script: Test Script (cdd9c43c3b0c)
+2025-10-21 01:10:12 - core.script_registry - DEBUG - _save_registry:143 - Registry saved successfully
+2025-10-21 01:10:21 - core.script_registry - [32mINFO[0m - _load_registry:129 - Loaded 1 scripts from registry
+2025-10-21 01:10:21 - core.script_registry - [32mINFO[0m - __init__:113 - Script registry initialized with 1 scripts
